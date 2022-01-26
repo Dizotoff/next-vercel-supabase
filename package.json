@@ -1,6 +1,10 @@
 {
   "name": "kleoverse",
+  "version": "0.0.1",
   "private": true,
+  "engines": {
+    "yarn": "forbidden"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -15,8 +19,14 @@
   "devDependencies": {
     "@types/node": "17.0.12",
     "@types/react": "17.0.38",
-    "eslint": "8.7.0",
+    "@typescript-eslint/eslint-plugin": "^5.10.1",
+    "@typescript-eslint/parser": "^5.10.1",
+    "eslint": "^8.7.0",
+    "eslint-config-google": "^0.14.0",
     "eslint-config-next": "12.0.8",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-react": "^7.28.0",
+    "prettier": "^2.5.1",
     "typescript": "4.5.5"
   }
 }
